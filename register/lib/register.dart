@@ -80,7 +80,7 @@ class _RegisterState extends State<Register> {
                       ),
                       errorStyle: TextStyle(fontSize: 18.0),
                       border: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.red),
+                        borderSide: BorderSide(color: const Color.fromARGB(255, 179, 44, 35)),
                         borderRadius: BorderRadius.all(Radius.circular(9.0)),
                       ),
                     ),
@@ -102,7 +102,7 @@ class _RegisterState extends State<Register> {
                       ),
                       errorStyle: TextStyle(fontSize: 18.0),
                       border: OutlineInputBorder(
-                        borderSide: BorderSide(color: Colors.red),
+                        borderSide: BorderSide(color: const Color.fromARGB(255, 172, 45, 36)),
                         borderRadius: BorderRadius.all(Radius.circular(9.0)),
                       ),
                     ),
