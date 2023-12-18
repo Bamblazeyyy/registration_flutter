@@ -47,7 +47,7 @@ class _RegisterState extends State<Register> {
                   child: TextFormField(
                     validator: MultiValidator([
                       RequiredValidator(errorText: 'Enter first name'),
-                      MinLengthValidator(3, errorText: 'Minimum 3 characters required'),
+                      MinLengthValidator(5, errorText: 'Minimum 5 characters required'),
                     ]),
                     decoration: InputDecoration(
                       hintText: 'Enter First Name',
